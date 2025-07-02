@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0"/>
+    <title>Super Hero Legends</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="theme-toggle">   
+     <button id="toggleBtn"> Toggle Theme</button>
+    </div>
+    
+            <div id="menu">   
+             <a href="index.html">Home</a>             
+             <a href="about.html">About</a>
+             <a href="contact.html">Contact</a>
+        </div>
+
+    <div class="container"> 
+        <h1>SuperHero Legends</h1>
+
+        <div class="gallery">   
+
+            <!-- Card Template -->
+             <div class="card">
+                <a href="iron-man.html" class="card">
+                <img src="images/download (12).jpg" alt="Iron Man"></a>
+                <h2>Iron Man</h2>
+
+            </div>
+            
+            <div class="card">  
+                <a href="black panther.html" class="card">
+                <img src="images/download (14).jpg" alt="Black Panther"></a>
+                <h2>Black Panther</h2>
+            </div>
+
+            <div class="card">
+                <a href="batman.html" class="card">
+                <img src="images/download (15).jpg" alt="Batman"></a>
+                <h2>Batman</h2>
+            </div>
+
+            <div class="card">  
+                <a href="spider-man.html" class="card">
+                <img src="images/download (13).jpg" alt="Spider-Man"></a>
+                <h2>Spider-Man</h2>
+            </div>
+
+            <div class="card">
+                <a href="superman.html" class="card">
+                <img src="images/download (16).jpg" alt="Superman"></a>
+                <h2>Superman</h2>
+            </div>
+
+            <div class="card">
+                <a href="wonderwoman.html" class="card">
+                <img src="images/La Mujer Maravilla.jpg" alt="Wonder Women"></a>
+                 <h2>Wonder Women</h2>
+            </div>
+
+            <div class="card">
+                <a href="deadpool.html" class="card">
+                <img src="images/download (17).jpg" alt="Deadpool"></a>
+                <h2>Deadpool</h2>
+            </div>
+
+            <div class="card">
+                <a href="captain america.html" class="card">
+                <img src="images/download (18).jpg" alt="Captain America"></a>
+                <h2>Captain America</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+     <div class="modal" id="heromodal"> 
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modalImage" src="" alt="Hero">
+            <h2 id="modalTitle"></h2>
+            <p id="modalDescription"></p>
+        </div>
+     </div>
+
+</body>
+</html>
